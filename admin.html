@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKUAT Admission System</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    
+    <header>
+        <a href="admin.html"><img src="img/logo.png" class="logo"></a>
+
+        <h1>JKUAT Admission System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home page</a></li>
+            <li><a href="#">Notices</a></li>
+            <li><a href="#">Course Requirements</a></li>
+            <li><a href="#">Admitted Students login</a></li>
+            <li><a href="#">Help/Feedback</a></li>
+        </ul>
+    </nav>
+
+    <section class="announcement">
+        <h2>JKUAT Admission Management System</h2>
+        <p>OFFICIAL OPENING DATE IS ON: 4/9/2023.<br>Room booking will be done on 29/8/2023 for first years at 12pm and 31/8/2023 for continuing Students at 12pm... Click <a href="#">here</a> to book.</p>
+    </section>
+
+    <section class="steps-to-apply">
+        <h2>HOW TO APPLY ONLINE:</h2>
+        <ol>
+            <li>Click <a href="#">here</a> to confirm course requirements and intake availability.</li>
+            <li>If the course that you need is available for preferred intake then proceed to application by first creating account/Sign-Up on this page.</li>
+            <li>Upon successful creation of account, proceed to Login on the same page with your email and password used during creation of account.</li>
+            <li>After login, fill in the Personal-data (Step 1), Course details (Step 2), Academic details (Step 3), supportive documents (Step 4), payments details (Step5).</li>
+            <li>To complete your course application, you are required to pay application fee through MPESA. (Certificate:500/-; Diploma:1000/-; Degree:1,500/-; Masters:1,500/-, Post Diploma:1,500/-, Phd:1,500/-).</li>
+            <li>Access the M-PESA menu from your phone, Select "Lipa Na M-PESA" then Pay bill option, enter this Pay bill Number (951200).</li>
+            <li>Enter your account number generated from the system from step 5(payments details after login) then enter the required amount.</li>
+            <li>Finally enter the exact MPESA generated code back into the system to complete your application.</li>
+            <li>Regularly visit this website and login to get the feedback or status of your application.</li>
+        </ol>
+        <p>NOTE: Every application has its own account number generated per transaction. ONLY applicants who have paid the application fees will be considered.</p>
+    </section>
+
+    <section class="confirmation-admission">
+        <h2>Confirmation of ready admission letters:</h2>
+        <p>Click <a href="#">here</a> first to confirm your admission letter, if its ready, follow the above procedure (No.2) to download your admission letter.</p>
+    </section>
+
+    <section class="important-information">
+        <h2>Important information for all new students:</h2>
+        <p>NOTE: All new students should return their admission documents and update their Biodata online BEFORE reporting date of every intake. Except Students Personal Details Form (F-2-59-8-7). (We highly recommend the documents to be in PDF format). Click <a href="#">here</a> to see the procedures.</p>
+    </section>
+
+    <section class="important-information">
+        <h2>Important information for all graduants/continuing students:</h2>
+        <p>Click <a href="#">here</a> to get the latest updates regarding all graduands/continuing students on updating personal details online before reporting day/Collection of certificate.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Experiencing any problem?</h2>
+        <p>Call customer care on <strong>0709 715 815</strong> or send an Email to <a href="mailto:support@jkuat.ac.ke">support@jkuat.ac.ke</a>, Facebook: Discover JKUAT or Twitter: <a href="https://twitter.com/DiscoverJKUAT">@DiscoverJKUAT</a>. Click <a href="#">here</a> to watch the video regarding getting admission letter online.</p>
+    </section>
+
+    <section class="sign-up">
+        <h2>Sign up to apply for a course or get Admission Letter</h2>
+        <form action="#" method="post">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
+            
+            <label for="other-names">Other Names</label>
+            <input type="text" id="other-names" name="other-names" placeholder="Enter your Other Names" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your personal email" required>
+            
+            <label for="confirm-email">Confirm Email</label>
+            <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm Your personal email" required>
+            
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your Phone e.g 254701833222" required>
+            
+            <label for="index-number">Index No</label>
+            <input type="text" id="index-number" name="index-number" placeholder="Enter high school index No" required>
+            
+            <label for="sponsor">Sponsor</label>
+            <select id="sponsor" name="sponsor">
+                <option value="">..select your sponsor type ..</option>
+                <!-- Add sponsor options -->
+            </select>
+    
+            <div class="robot-check">
+                <input type="checkbox" id="robot" name="robot" required>
+                <label for="robot">I am not a robot</label>
+            </div>
+    
+            <button type="submit">Verify</button>
+        </form>
+    </section>
+    
+
+    <section class="login">
+        <h2>Kindly login here</h2>
+        <p>Use this part if you want to apply or download admission letter ONLY.</p>
+        <form action="#" method="post">
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="login-email" placeholder="Email e.g. jane@gmail.com" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="login-password" placeholder="Enter Your password(Your Index No/Exam_Year)" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Since its establishment in 1981, JKUAT has been dedicated to providing high-quality education to students. Our mission is to set trends in higher education, research, innovation, and entrepreneurship. We strive to be a university of global excellence, contributing to development through education and innovation.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="portal.html">student portal</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h3>Contact Us</h3>
+                <form action="contact.php" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 JKUAT. All rights reserved.
+        </div>
+    </footer>
+
+    
+        
